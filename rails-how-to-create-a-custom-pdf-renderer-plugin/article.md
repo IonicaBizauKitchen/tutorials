@@ -1,4 +1,4 @@
-Before diving into our series on building great Web apps with Rails, check out our [tutorial on how to get started](http://blog.pluralsight.com/tutorial-rails) with the popular framework.
+Before diving into this series on building great Web apps with Rails, check out our [tutorial on how to get started](http://blog.pluralsight.com/tutorial-rails) with the popular framework.
 
 Let’s begin with a quick refresher on Rails. Rails is a Web framework within the Ruby programming language, and it’s also a Ruby gem. Ruby gems are comprised of code, documentation and a gemspec. The gemspec contains information on the gem including what it does and who created it. And since the <code>gemspec</code> is also Ruby code, you can wrap scripts to generate file names. Gems make it easy for Ruby programmers to share code that they want to install in their applications, and it’s this process which makes Ruby on Rails one of the most popular ways to build great Web apps. 
 
