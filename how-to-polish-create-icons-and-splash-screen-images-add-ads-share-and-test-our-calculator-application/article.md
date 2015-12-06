@@ -4,7 +4,7 @@
 
 This is the third post in a series of posts which will teach you how to take advantage of your web development knowledge in building hybrid applications for iOS and Android. The first post in this series was all about [How to get started with Ionic framework on Windows and Mac](), the second one was about [How to create a calculator application with Ionic framework by using Ionic Creator for UI]().
 
-This third post explains:
+The third post of this series explains:
 
 + How to polish our existing calculator application
 + How to create icons and splash screen images automatically in Ionic framework
@@ -501,7 +501,7 @@ Now, add the following code to your app.js file, inside the `.run` function so t
     $ionicPlatform.ready(function() {
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
         // for form inputs)
-        if (window.cordova &amp;&amp; window.cordova.plugins.Keyboard) {
+        if (window.cordova && window.cordova.plugins.Keyboard) {
             cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         }
 
@@ -526,7 +526,7 @@ Of course, change it according to your own `admob_key` which you obtained in the
 ```
 // select the right Ad Id according to platform
 var admobid = {};
-if( /(android)/i.test(navigator.userAgent) ) { // for android &amp; amazon-fireos
+if( /(android)/i.test(navigator.userAgent) ) { // for android & amazon-fireos
     admobid = {
         banner: 'ca-app-pub-xxx/xxx',
         interstitial: 'ca-app-pub-xxx/yyy'
@@ -918,7 +918,7 @@ Once you have the device all set up you can run it by clicking the Start button 
 
 Since Ionic sees the Genymotion device as a real device attached to your computer, you can't run `ionic emulate android`, as we did in the iOS section (with the obvious ios/android change). Instead, you need to run the Ionic's `run` command (before you do the build phase) like this:
 
-`ionic build android &amp;&amp; ionic run android`
+`ionic build android && ionic run android`
 
 This would now run the application on the Genymotion emulator and it would look like shown on the image below:
 ![](http://i.imgur.com/I2cHeH4.jpg)
